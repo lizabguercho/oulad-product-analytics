@@ -1,0 +1,26 @@
+[project]
+name = "oulad-product-analytics"
+version = "0.1.0"
+description = "OULAD student engagement and retention product analytics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "jupyter>=1.1",
+    "ipykernel>=6.29",
+    "python-dotenv>=1.0",
+    "statsmodels>=0.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8",
+]
+
+[tool.uv]
+package = false
